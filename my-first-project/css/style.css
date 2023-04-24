@@ -1,0 +1,26 @@
+p{
+    color:aqua;
+    font-size: 40px;
+    background-color:azure
+}
+body{
+    background-color: rgb(91, 151, 79);
+
+}
+span{
+    font-weight: 500;
+}
+#canvasContainer{
+    position:fixed;
+    left:60%
+    top： 240px;
+}
+*/
+html,body{
+    margin:0
+    padding：0
+
+}
+canvas{
+
+}
