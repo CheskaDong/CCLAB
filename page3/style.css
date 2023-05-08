@@ -1,0 +1,43 @@
+.canvas1Frame{
+    background-color: black;
+    position: absolute;
+    top: 24%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+      margin: auto;
+      width: 600px;
+      height: 400px;
+  }
+  .canvas2Frame{
+    background-color: black;
+    position: absolute;
+    top: 25%;
+    left: 71%;
+    transform: translate(-50%, -50%);
+      margin: auto;
+      width: 877px;
+      height: 432px;
+  }
+  .canvas3Frame{
+    background-color: black;
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+      margin: auto;
+      width: 50%;
+      height: 50%;
+  }
+  .canvas4Frame{
+    background-color: black;
+    position: absolute;
+    top: 78%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+      margin: auto;
+      width: 60%;
+      height: 60%;
+  }
+iframe{
+    display: block;
+}

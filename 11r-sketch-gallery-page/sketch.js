@@ -17,7 +17,7 @@
     function setup() {
       let canvas = createCanvas(windowWidth, windowHeight);
       canvas.parent("p5-canvas-container");
-      canvas.parent("main-container");
+   
       
       size = 20;
       for (let i = 0; i < 5; i++) {
@@ -26,7 +26,7 @@
       for (let i = 0; i < 106; i++) {
         pan[i] = true;
       }
-      for (let i = 0; i < 30; i++) {
+      for (let i = 0; i < 60; i++) {
         bubble[i] = new Bubble(random(width), random(height), blu[i % 4]);
       }
     }
@@ -242,23 +242,7 @@
     
       checkDistance(other) {
         let d = dist(this.x, this.y, other.x, other.y);
-        // curveVertex(this.s - this.x1, 0);
-        // curveVertex(this.s - this.x1, 0);
-        // curveVertex(this.s, -this.s);
-        // curveVertex(-this.s, -this.s);
-        // curveVertex(-this.s + this.x1, 0);
-        // curveVertex(-this.s + this.x1, 0);
-        // strokeWeight(10);
-        // stroke(255);
-        // circle(-other.s + other.x+other.x1, other.y, 5);
-        // point(other.y)
-        // point(-other.s + other.y)
-        // if (
-        //   this.x > other.x + other.x1 - other.s &&
-        //   this.x < other.s - other.x1 + other.x &&
-        //   this.y < other.y &&
-        //   this.y > -other.s + other.y
-        // ) {
+    
         if (d < other.s * 2) {
           return true;
         } else {
