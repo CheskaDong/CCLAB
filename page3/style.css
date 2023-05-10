@@ -5,8 +5,8 @@
     left: 20%;
     transform: translate(-50%, -50%);
       margin: auto;
-      width: 600px;
-      height: 400px;
+      width: 50%;
+      height: 50%;
   }
   .canvas2Frame{
     background-color: black;
@@ -15,8 +15,8 @@
     left: 71%;
     transform: translate(-50%, -50%);
       margin: auto;
-      width: 877px;
-      height: 432px;
+      width: 60%;
+      height: 55%;
   }
   .canvas3Frame{
     background-color: black;
